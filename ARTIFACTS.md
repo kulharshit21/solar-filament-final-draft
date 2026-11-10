@@ -17,6 +17,10 @@ Weights Competion Submmsion/
 │   └── submission_w11_champion.csv
 ├── reports/
 │   └── validation_report.json
+├── docs/
+│   ├── README.md
+│   ├── PROJECT_REPORT.md
+│   └── Solar_Filament_FINAL_DRAFT_Report.pdf
 └── manifests/
     ├── ARTIFACT_MANIFEST.json
     ├── SHA256SUMS.txt
@@ -26,6 +30,8 @@ Weights Competion Submmsion/
 Drive link: https://drive.google.com/open?id=1qikTNZkhUWEC3vB0Yz2_5l5Zwr1AehFN
 
 Private GitHub repository: https://github.com/kulharshit21/solar-filament-final-draft
+
+The PDF report is also stored at `docs/Solar_Filament_FINAL_DRAFT_Report.pdf` in Drive and at the repository root in GitHub.
 
 Always compare the downloaded file hashes with `SHA256SUMS.txt` before inference or submission. The canonical competition CSV hash is `4ee79cb588f9415eb2f48ebb1a129382f0d7f5e6410724be8b9f6b213b18e512`.
 
