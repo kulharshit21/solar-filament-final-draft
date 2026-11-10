@@ -1,6 +1,6 @@
 # FINAL DRAFT — Solar Filament Segmentation 0.40 Pipeline
 
-This private repository contains the code-only release associated with the verified **0.40 Kaggle public leaderboard submission** for the Solar Filament Segmentation Challenge 2026.
+This private repository contains the code-only release associated with the verified **0.40 Kaggle public leaderboard submission** for the Solar Filament Segmentation Challenge 2026. The exact recovered CSV was independently resubmitted on 2026-11-10 and Kaggle returned `0.40` with status `COMPLETE`.
 
 The model weights, exact submitted CSV, and their checksum manifests are deliberately stored outside GitHub in the separate Google Drive artifact release documented in [ARTIFACTS.md](ARTIFACTS.md). No competition dataset, model weight, cached prediction, credential, or submission CSV is committed here.
 

@@ -26,7 +26,7 @@ The recovered package records:
 - OOF RQ: `0.6741`;
 - OOF TP/FP/FN: `1031 / 454 / 543`.
 
-The exact submission is being independently resubmitted to Kaggle under the description `FINAL DRAFT exact recovered 0.40 w1:1 champion SHA256 4ee79cb5`. The resulting score is authoritative; local reports are supporting evidence only.
+The exact submission was independently resubmitted to Kaggle under the description `FINAL DRAFT exact recovered 0.40 w1:1 champion SHA256 4ee79cb5`. Kaggle returned status `COMPLETE` and public score `0.40`. That result is authoritative; local reports are supporting evidence only.
 
 ## Core historical hashes
 
