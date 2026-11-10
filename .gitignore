@@ -1,0 +1,20 @@
+# Competition data and generated outputs are intentionally excluded.
+data/
+dataset/
+models/
+weights/
+submissions/
+work/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+submission*.csv
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+

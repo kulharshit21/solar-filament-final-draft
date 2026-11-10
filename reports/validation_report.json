@@ -1,0 +1,32 @@
+{
+  "policy": {
+    "variant": "ens[avg[yolo]|mask2former;w=1:1]",
+    "mask_thr": 0.45,
+    "min_area": 319,
+    "min_area_rule": "p05",
+    "max_area": 70502,
+    "score_thr": 0.53,
+    "crf": false,
+    "OOF_PQ": 0.4622,
+    "OOF_SQ": 0.6857,
+    "OOF_RQ": 0.6741,
+    "OOF_TP": 1031,
+    "OOF_FP": 454,
+    "OOF_FN": 543,
+    "Kaggle_Public_LB": 0.40
+  },
+  "integrity": {
+    "ok": true,
+    "problems": [],
+    "rows": 1261,
+    "images": 180,
+    "overlap_pixels": 0,
+    "undecodable": 0,
+    "per_image": {
+      "min": 1,
+      "median": 7.0,
+      "mean": 7.0055555555555555,
+      "max": 17
+    }
+  }
+}
