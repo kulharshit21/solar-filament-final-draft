@@ -1,6 +1,6 @@
 # FINAL DRAFT - Solar Filament Segmentation Challenge 2026
 
-This is the clean, code-only release for the rules-compliant pipeline associated with our **0.40 public leaderboard submission**. The canonical submission was independently resubmitted to Kaggle on 10 November 2026 and returned:
+This is the clean, public code release for the rules-compliant pipeline associated with our **0.40 public leaderboard submission**. The canonical submission was independently resubmitted to Kaggle on 10 November 2026 and returned:
 
 ```text
 status: COMPLETE
@@ -10,12 +10,12 @@ competition: filament-segmentation-2026
 
 This release intentionally separates reproducible source from large binary artifacts:
 
-- **Private GitHub:** source code, configuration, documentation, tests, and integrity checks only.
+- **Public GitHub:** source code, configuration, documentation, tests, integrity checks, and report-generation assets. It contains no dataset, credentials, weights, or submission CSV.
 - **Google Drive:** exact historical weights, exact submission CSV, validation report, Kaggle score proof, and SHA-256 manifests.
 
 ## Links
 
-- Private code repository: https://github.com/kulharshit21/solar-filament-final-draft
+- Public code repository: https://github.com/kulharshit21/solar-filament-final-draft
 - Verified weights and submission folder: https://drive.google.com/open?id=1qikTNZkhUWEC3vB0Yz2_5l5Zwr1AehFN
 - Competition: https://www.kaggle.com/competitions/filament-segmentation-2026
 
@@ -214,4 +214,8 @@ python verify_artifacts.py
 ```
 
 The canonical 0.40 file is `submission/submission_w11_champion.csv`. Do not substitute the newer Python4 candidate; that separate candidate returned 0.38 and is intentionally excluded from this final draft.
+
+## 9. Final-report source
+
+`reports/OVERLEAF_MAIN.tex` is a self-contained technical-report source for a blank Overleaf project. Upload it as `main.tex` with the two images in `reports/figures/`; `reports/OVERLEAF_README.md` lists the required files. The source includes real qualitative overlays derived from the exact verified submission and a measured OOF metric/instance-distribution figure.
 
