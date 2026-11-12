@@ -90,16 +90,15 @@ Output & COCO RLE \\
 \label{tab:policy}
 \end{table}
 
-\begin{figure*}[t]
+\begin{figure}[t]
 \centering
-\includegraphics[width=\textwidth]{figures/qualitative_predictions.png}
+\includegraphics[width=\columnwidth]{figures/qualitative_predictions.png}
 \caption{Representative test-image overlays from the exact verified 0.40 submission. Colored regions are individual predicted filament masks. These examples are qualitative illustrations only; test labels are not available locally.}
 \label{fig:qualitative}
-\end{figure*}
+\end{figure}
 
 The qualitative examples in Figure~\ref{fig:qualitative} show separated masks over full-disk H-alpha images. The final RLE encoder verifies image coverage, unique instance identifiers, RLE decodability, and zero overlapping output pixels before writing the submission file.
 
-\clearpage
 \section{Evaluation}
 \subsection{Metric and protocol}
 The official score is Panoptic Quality:
